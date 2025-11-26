@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre_del_recurso_educativo',
-    descripcionCurso: 'Descripción_del_RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    componenteFormativo: 'Movilización social y autogestión en salud',
+    descripcionCurso:
+      'Este componente formativo trata sobre la movilización social y la autogestión, impulsadas por la organización comunitaria y el empoderamiento. Promueve la participación activa, la toma de decisiones autónomas y el uso eficiente de recursos para transformar la salud pública. Se utilizan herramientas como el árbol de soluciones, la espina de pescado y SARAR para fortalecer el análisis y la acción colectiva',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -30,28 +31,30 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Movilización social',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Autogestión	6',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Participación social: definición, normativa, formas	10',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Organización y empoderamiento	16',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Herramientas de análisis	17',
+            hash: 't_1_4',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [

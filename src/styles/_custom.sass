@@ -2,26 +2,272 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 53%
+    right: 72%
+    animation-delay: 0s;
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 4.2s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 15%
+    right: 1%
+    animation-delay: 1s;
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+
+// Modulo versión escritorio/movil
+@media (min-width:1400px)
+  .movil2
+    display: inline
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
   
 .banner-principal
   .container.tarjeta
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
     background-size: cover
     background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
   
-.txt--green
-  color: #39A900 !important
+.boton *, .boton--sm *
+  color: #ffff !important
+
+.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover *
+  color: #ffff !important
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-paginas.png") !important
+
+.fondo1-t1
+  background-image: url(../assets/curso/temas/introduccion/fondo-1.svg) !important
+  margin-inline: -3rem
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  @media screen and (max-width: $bp-max-sm)
+    margin-inline: -1.5rem
+
+//////////Background_Color///////////
+.bg-color
+  &-1
+    background-color: #FDD5BA
+  &-2
+    background-color: #FFF3D3
+  &-3
+    background-image: url('../assets/curso/temas/fondo-figura.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    border-radius: 20px
+  &-4
+    background-image: url('../assets/curso/temas/fondo-figura2.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    border-radius: 20px
+
+.cajon.cajon.color-primario
+  background-color: #FFF3D3
+  &::before
+    background-color: #FFC025
+
+.style___box_1
+  background-color: $color-adicional-3
+  padding: 0rem 1rem 0rem 0rem
+  img
+    margin-left: -0.8rem !important
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+    
+  .img-hero
+    margin-left: -0.8rem !important
+
+  .icon-inline 
+    margin-left: 0 !important
+    display: block
+    flex-shrink: 0
+    width: 65px
+    height: auto
+    margin-bottom: 1rem
+  
+  @media screen and (max-width: 1200px)
+    padding: 1.5rem
+
+.espacio___movil_1
+  @media screen and (max-width: 1200px)
+    margin-top: 2rem !important
+
+.cajon-b.color-primario:before
+  width: 70%
+  height: 30%
+  background-color: #FFDCC5
+
+.tarjeta
+  &--BGC01
+    background-color: #FFDD8B
+  &--BGC02
+    background-color: #F4E9E7
+
+.tarjeta--BG02
+  background-size: cover
+  background-repeat: no-repeat
+  background-image: url("../assets/curso/temas/tema1/fondo-slyder-BG01.png")
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+// Módulo de tarjetas
+.tarjeta.bgslyder
+  background-color: #ffff 
+  padding: 1rem
+  margin: 1.5%
+
+.cajon.cajon.color-secundario-medio
+  background-color: #FEEADD
+  &::before
+    background-color: #FA9757
+
+.bloque-texto-d
+  border: none
+
+.pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #0B2FE1
+  color: #fff !important
+  border: none 
+
+.bloque-texto-d.color-secundario:before
+  background-color: #FFF3D3
+
+.tarjeta--BG01, .tarjeta--FBG01
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+/*FONDOS TARJETAS */
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/tema1/fondo-slyder-pasos.png")
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+  figure
+    z-index: -1 !important
+
+.tarjeta--FBG01
+  background-color: #FFFFFF !important
+
+.pasos-b__header__item--before .pasos-b__header__item__dot
+  border-color: #41C9A5
+  background-color: #41C9A5
+
+.pasos-b__header__item--before .pasos-b__header__item__dot > i
+  color: #000 !important
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:after, .pasos-b__header__item--before .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+
+.bg
+  &-c1 
+    background-color: #D0FAE7
+    background-repeat: repeat-x
+    background-position: center center // centro horizontal y vertical
+    height: 40px
+    display: flex
+    align-items: center
+    justify-content: center 
+  &-c2
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(226, 255, 242, 1) 20%, rgba(208, 250, 231, 1) 80%, rgba(255, 255, 255, 1) 100%)
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3rem !important
+    @media (max-width: $bp-max-sm)
+      margin-inline: -1.5rem !important
+    
+.tarjeta--C01
+  background-color: #FFDD8B
+
+.tarjeta.tarjeta--C01.acordion__activo
+  background-color: #F4E9E7
+
+.acordion__accion__btn--b, .acordion__accion__btn--a
+  background-color: #0B2FE1
+  color: #fff !important
+  border: none
+
+// modulo tabs
+.tabs-c__content-item
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  background-color: #FFF3D3
+.tabs-c__tab
+  background-color: #CED5F9
+.tabs-c__tab--active
+  background-color: #fff
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+
+.img-infografica-b__modal
+  background-color: #CED5F9
+
+.img-infografica-b__modal__btn-cerrar i
+  color: #0B2FE1
+
+.img-infografica-b__modal__contenido div > *
+  color: #000 !important
+
+.img-infografica__item__tooltip, .img-infografica-b__item__tooltip
+  display: none !important
+
+.cajon.C01
+  background-color: #D0FAE7
+
+.tarjeta-avatar-b__img
+  min-width: 15%
+  max-width: 15%
+  position: relative
+  display: flex
+  align-items: center
+
+.tarjeta.color1
+  background-color: #FFDD8B
+
+.titulo2
+  background-color:#D0FAE7
+  border-bottom: #30DF8E 4px solid
+  color: black
+  padding: 2px 10px
+  display: inline-flex
+  align-items: center
+  justify-content: flex-start
+  height: 44px
+.titulo2 h5
+  margin-right: 23px
+
+//- tarjetas cambio de color HOVER
+.bg-c2 
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li, .lista-ul li i
+  display: flex
