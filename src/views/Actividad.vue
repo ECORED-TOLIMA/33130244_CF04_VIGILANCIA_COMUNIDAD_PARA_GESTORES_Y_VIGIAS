@@ -359,7 +359,8 @@ export default {
         },
         {
           id: 11,
-          texto: 'texto_pregunta',
+          texto:
+            'La autogestión consiste en que las personas y comunidades deleguen por completo en otros las decisiones y acciones que afectan su bienestar, sin asumir un rol activo ni responsable.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -373,7 +374,8 @@ export default {
         },
         {
           id: 12,
-          texto: 'texto_pregunta',
+          texto:
+            'La movilización social es un proceso netamente individual que permite a la comunidad gestionar y liderar procesos colectivos para transformar su realidad en salud pública.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -387,12 +389,13 @@ export default {
         },
         {
           id: 13,
-          texto: 'texto_pregunta',
+          texto:
+            'La organización comunitaria favorece la creación de espacios participativos y redes colaborativas, fortaleciendo la cooperación, participación y corresponsabilidad en la solución de problema.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'a', texto: 'Verdero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento del componente.',
@@ -401,12 +404,13 @@ export default {
         },
         {
           id: 14,
-          texto: 'texto_pregunta',
+          texto:
+            'El empoderamiento es el desarrollo de capacidades, conocimientos y liderazgo que potencia la incidencia de la comunidad en la gestión de recurso.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'a', texto: 'Verdero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento del componente.',
@@ -415,12 +419,13 @@ export default {
         },
         {
           id: 15,
-          texto: 'texto_pregunta',
+          texto:
+            'La organización comunitaria fortalece la cooperación y corresponsabilidad en la solución de los problemas locales.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'a', texto: 'Verdero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento del componente.',
@@ -429,7 +434,8 @@ export default {
         },
         {
           id: 16,
-          texto: 'texto_pregunta',
+          texto:
+            'La movilización social solamente ocurre cuando existen presiones externas y no facilita cambios internos.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -443,7 +449,8 @@ export default {
         },
         {
           id: 17,
-          texto: 'texto_pregunta',
+          texto:
+            'Las herramientas de análisis comunitario no son útiles para identificar causas, ni para plantear soluciones en salud pública.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -457,7 +464,8 @@ export default {
         },
         {
           id: 18,
-          texto: 'texto_pregunta',
+          texto:
+            'La organización comunitaria limita la participación activa e impide la formación de redes y no promueve el liderazgo local.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -471,7 +479,8 @@ export default {
         },
         {
           id: 19,
-          texto: 'texto_pregunta',
+          texto:
+            'Las coaliciones comunitarias están formadas por grupos homogéneos y no integran actores diferentes del territorio.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -485,12 +494,13 @@ export default {
         },
         {
           id: 20,
-          texto: 'texto_pregunta',
+          texto:
+            'La metodología SARAR busca fortalecer la autoestima, la responsabilidad y la planificación de acciones colectivas en comunidades rurales.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdero', esCorrecta: false },
-            { id: 'b', texto: 'Falso', esCorrecta: true },
+            { id: 'a', texto: 'Verdero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento del componente.',
