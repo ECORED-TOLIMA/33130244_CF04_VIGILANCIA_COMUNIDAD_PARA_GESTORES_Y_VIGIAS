@@ -122,7 +122,7 @@ export default {
     {
       tema: '1.1. Autogestión',
       referencia:
-        'Rodríguez Tamayo, N. A. (2019). La autogestión como resistencia, dos ejemplos en América Latina. <em>Kavilando, 11.</em>',
+        'Rodríguez Tamayo, N. A. (2019). <em>La autogestión como resistencia, dos ejemplos en América Latina. Kavilando, 11.</em>',
       tipo: 'Artículo',
       link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7225263',
     },
@@ -174,7 +174,7 @@ export default {
     {
       termino: 'Organización comunitaria',
       significado:
-        'agrupamiento estructurado de personas para identificar y resolver necesidades comunes',
+        'agrupamiento estructurado de personas para identificar y resolver necesidades comunes.',
     },
     {
       termino: 'Participación social',

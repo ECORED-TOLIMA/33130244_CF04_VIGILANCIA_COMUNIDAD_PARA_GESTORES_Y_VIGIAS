@@ -166,7 +166,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1. Autogestión
 
-    p La autogestión, desde una perspectiva técnica, ha sido definida por diferentes autores sociales como un proceso de organización y toma de decisiones autónoma protagonizado por individuos o comunidades, sin mediación de grupos externos. Estas definiciones enfatizan la autonomía, la democracia, la participación y el poder directo sobre los procesos sociales, económicos o políticos involucrado.
+    p La autogestión, desde una perspectiva técnica, ha sido definida por diferentes autores sociales como un proceso de organización y toma de decisiones autónomas protagonizado por individuos o comunidades, sin mediación de grupos externos. Estas definiciones enfatizan la autonomía, la democracia, la participación y el poder directo sobre los procesos sociales, económicos o políticos involucrados.
     p.mb-4 Basado en lo anterior, a continuación, se detallan las apreciaciones de diferentes autores: 
 
     .tarjeta--BG01.p-4.px-md-5.mb-4
@@ -250,7 +250,7 @@
       .col-11
         p.mb-0(data-aos="fade-right") La organización comunitaria es un proceso fundamental que permite a las personas unirse para identificar problemas o metas comunes. Su propósito es movilizar recursos, desarrollar estrategias y lograr objetivos colectivos. Este enfoque es la base de muchas de las iniciativas que buscan el cambio social, ya que promueve la colaboración y el empoderamiento.
 
-    p.mb-4 Para que la organización comunitaria sea efectiva, debe incluir varios elementos clave. El primer paso es obtener un profundo conocimiento de la comunidad, identificando lo que realmente importa a sus miembros. A partir de ahí, el proceso se centra en generar y utilizar el poder de diversas formas, como el poder político o legislativo para influir en las leyes, el poder del consumidor a través de boicots o el poder jurídico para hacer cumplir las normas. También puede manifestarse como un poder disociador, por ejemplo, mediante una huelga para reclamar mejores condiciones laborales.(Centro para la Salud y Desarrollo Comunitario de la Universidad de Kansas, 2025)
+    p.mb-4 Para que la organización comunitaria sea efectiva, debe incluir varios elementos clave. El primer paso es obtener un profundo conocimiento de la comunidad, identificando lo que realmente importa a sus miembros. A partir de ahí, el proceso se centra en generar y utilizar el poder de diversas formas, como el poder político o legislativo para influir en las leyes, el poder del consumidor a través de #[em boicots] o el poder jurídico para hacer cumplir las normas. También puede manifestarse como un poder disociador, por ejemplo, mediante una huelga para reclamar mejores condiciones laborales.(Centro para la Salud y Desarrollo Comunitario de la Universidad de Kansas, 2025).
 
     .bg-c2.px-md-5.px-4.mb-0
       .row.justify-content-center.mb-4
@@ -646,7 +646,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
         .bg-color-2.tarjeta.py-3.px-4.h-100
-          p.mb-0 Las organizaciones que favorecen la vigilancia en salud pública, específicamente la vigilancia basada en comunidad puede darse mediante veedurías de salud, club de usuarios del sistema general de seguridad social en salud, comités de vigilancias, redes de vigilancia en salud comunitaria, entre otras; quienes asumen funciones de gestión, incidencia, control social y garantía de derechos en el contexto. Además, cuando la organización se fortalecer favorece la autonomía, la sostenibilidad y capacidad de respuesta de los desafíos propios de la comunidad e incluso externos (Richer, 2005). 
+          p.mb-0 Las organizaciones que favorecen la vigilancia en salud pública, específicamente la vigilancia basada en comunidad puede darse mediante veedurías de salud, club de usuarios del sistema general de seguridad social en salud, comités de vigilancias, redes de vigilancia en salud comunitaria, entre otras; quienes asumen funciones de gestión, incidencia, control social y garantía de derechos en el contexto. Además, cuando la organización se fortalece favorece la autonomía, la sostenibilidad y capacidad de respuesta de los desafíos propios de la comunidad e incluso externos (Richer, 2005). 
 
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
@@ -812,43 +812,38 @@
 
     p Esta metodología tiene un enfoque educativo y de capacitación que favorece el desarrollo de la autoestima, el fortalecimiento asociativo, el ingenio, la planificación de acciones y la responsabilidad de las personas para la resolución de problemas dentro de la comunidad; el enfoque participativo se centra en la persona que aprende para fortalecer la capacidad para la toma de decisiones en salud y saneamiento bajo premisas de respeto y confianza. Este método tiene como énfasis la salud y saneamiento en las comunidades especialmente las rurales (Marinof, Amalia & Centurión, 2001).
     p.mb-4 Esta metodología corresponde a un acrónimo en inglés que corresponde a las siguientes cualidades: 
-
-    .row.justify-content-center.mb-4
-      .col-lg-2.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-        .tarjeta-numerada.color-primario.p-5.h-100
-          .tarjeta-numerada__numero
-            .h2 S
-          p.text-center 
-            b Self - esteem
-          p.text-center.mb-0 (Autoestima)
-      .col-lg-2.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="flip-right")
-        .tarjeta-numerada.color-secundario.p-5.h-100
-          .tarjeta-numerada__numero
-            .h2 A
-          p.text-center 
-            b Associative strengths
-          p.text-center.mb-0 (Fuerzas asociativas)
-      .col-lg-3.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="flip-left")
-        .tarjeta-numerada.color-acento-contenido.p-5.h-100
-          .tarjeta-numerada__numero
-            .h2 R
-          p.text-center 
-            b Resourcefulness
-          p.text-center.mb-0 (Ingenio)
-      .col-lg-2.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="fade-left")
-        .tarjeta-numerada.color-acento-botones.p-5.h-100
-          .tarjeta-numerada__numero
-            .h2 A
-          p.text-center 
-            b Action plannig
-          p.text-center.mb-0 (Planificación de la acción)
-      .col-lg-3.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="fade-left")
-        .tarjeta-numerada.color-acento-botones.p-5.h-100
-          .tarjeta-numerada__numero
-            .h2 R
-          p.text-center 
-            b Responsability
-          p.text-center.mb-0 (Responsabilidad)
+    
+    .row.mb-4
+      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")(style="background-color:#FFF3D3")
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img-74.svg' alt="Imagen decorativa")
+        h4.text-center #[em Self - esteem]
+        p.text-center.mb-0 (Autoestima)
+      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-right")(style="background-color:#FEEADD")
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img-75.svg' alt="Imagen decorativa")
+        h4.text-center #[em Associative strengths] 
+        p.text-center.mb-0 (Fuerzas asociativas)
+      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-left")(style="background-color:#FFF3D3")
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img-76.svg' alt="Imagen decorativa")
+        h4.text-center #[em Resourcefulness] 
+        p.text-center.mb-0 (Ingenio)
+      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-left")(style="background-color:#FEEADD")
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img-77.svg' alt="Imagen decorativa")
+        h4.text-center #[em Action plannig]
+        p.text-center.mb-0 (Planificación de la acción)
+      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-left")(style="background-color:#FFF3D3")
+        .row.justify-content-center.mb-3
+          .col-4
+            img(src='@/assets/curso/temas/tema1/img-78.svg' alt="Imagen decorativa")
+        h4.text-center #[em Responsability]
+        p.text-center.mb-0 (Responsabilidad)
 
     .row.justify-content-center.mb-4
       .col-lg-8.col-12
