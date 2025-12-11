@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/img-01.png', alt='Imagen decorativa')
 
-    p.mb-4 La movilización social, de acuerdo con Pierre Bourdieu no es un proceso espontáneo sino es un trabajo progresivo por parte del grupo movilizado que tiene por objeto romper el determinismo estructural y la idea que los sujetos sociales se ven arrastrados inevitablemente por presiones externas. Por lo tanto, el movimiento social responde a procesos históricos que adoptan recursos materiales y simbólicos en sus estrategias; en las que lo político y el simbolismo busca reconocimiento y transformación de las condiciones sociales desde la crítica estructuras y discursos de dominación (Paris Pombo, 2012).
+    p.mb-4 La movilización social, de acuerdo con Pierre Bourdieu no es un proceso espontáneo sino es un trabajo progresivo por parte del grupo movilizado que tiene por objeto romper el determinismo estructural y la idea que los sujetos sociales se ven arrastrados inevitablemente por presiones externas. Por lo tanto, el movimiento social responde a procesos históricos que adoptan recursos materiales y simbólicos en sus estrategias; en las que lo político y el simbolismo busca reconocimiento y transformación de las condiciones sociales desde la crítica estructural y discursos de dominación (Paris Pombo, 2012).
 
     .row.justify-content-center.mb-4
       .col-xl-10
@@ -32,7 +32,7 @@
           p Till & Wood consideran que los movimientos sociales son una acción en la que se involucran campañas colectivas que tienen el fin de reportar demandas a las autoridades, manifestaciones y creaciones de redes. A su vez, Melucci refiere que la movilización son redes de actores que a partir de una identidad colectiva para defender o modificar ciertos aspectos sociales mediante estrategias de acción colectiva (Centro de estudios en democracia y asuntos electorales, 2014; Contreras Hernández, 2022; Tilly & Wood, 2010).
           p Según los anteriores autores, la movilización social presenta ciertas características: 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
         .tarjeta.tarjeta--BGC01.p-4
           .row.justify-content-center.mb-4
@@ -67,10 +67,10 @@
     
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
-        p La consolidación de la movilización social se genera cuando el proceso cuenta con la participación, corresponsabilidad y construcción colectiva de la comunidad. Para cumplir con esto es depende de varios elementos, entre ellos están:
+        p La consolidación de la movilización social se genera cuando el proceso cuenta con la participación, corresponsabilidad y construcción colectiva de la comunidad. Para cumplir con esto depende de varios elementos, entre ellos están:
 
     .tarjeta--BG02.px-md-5.p-lg-0.p-4.mb-4
-      .row.justify-content-center.align-items-center.my-lg-5.my-4
+      .row.justify-content-center.align-items-center.my-lg-4.my-4
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
           figure
             img(src='@/assets/curso/temas/tema1/img-09.png', alt='alt' style='margin-bottom: -23px;')
@@ -106,7 +106,7 @@
       .col-lg-10.col-12
         p La movilización social es una estrategia clave en salud pública que involucra a la comunidad en la identificación, análisis y resolución de los problemas sanitarios que la afectan directamente. A través de procesos participativos, esta herramienta fomenta el empoderamiento de las personas, permitiéndoles convertirse en agentes de cambio dentro de sus comunidades. Esta metodología ha demostrado ser eficaz en la prevención de enfermedades, el control de brotes y la promoción de hábitos saludables (Eugenio et al., 2014).
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-0
       .col-xl-10
         .cajon.cajon.color-secundario-medio.row.align-items-center.m-0.style___box_1.p-4.mb-4(data-aos="zoom-in").espacio___movil_1
           .col-xl-auto(data-aos="fade-right")
@@ -122,17 +122,17 @@
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img-16.svg' alt="Imagen decorativa")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FFDD8B;")
-            h4.text-center.mt-5(style="color:#12263F") Promover la adopción de medidas preventivas
+            h4.text-center.mt-5(style="color:#12263F") Promover la adopción de medidas preventivas.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img-17.svg' alt="Imagen decorativa")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FFDD8B;")
-            h4.text-center.mt-5(style="color:#12263F") Difundir información clave
+            h4.text-center.mt-5(style="color:#12263F") Difundir información clave.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/img-18.svg' alt="Imagen decorativa")
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FFDD8B;")
-            h4.text-center.mt-5(style="color:#12263F") Movilizar recursos locales
+            h4.text-center.mt-5(style="color:#12263F") Movilizar recursos locales.
 
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
@@ -222,7 +222,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img-27.png', alt='Imagen decorativa')
           
-    p.mb-4 Las definiciones expresadas por los diferentes autores coinciden en presentar la autogestión como proceso de gestión participativa, democrática y autónoma, que elimina la delegación y jerarquización, y apuesta por la transformación social que desde la base y por los actores directamente involucrados. Se diferencia de otras formas organizativas por su énfasis en la asunción directa del poder y la toma de decisiones, la transformación consciente de las formas de vida y la gestión integral de los asuntos comunitarios o colectivos (Rodríguez Tamayo, 2019). 
+    p.mb-4 Las definiciones expresadas por los diferentes autores coinciden en presentar la autogestión como proceso de gestión participativa, democrática y autónoma, que elimina la delegación y jerarquización, y apuesta por la transformación social desde la base y por los actores directamente involucrados. Se diferencia de otras formas organizativas por su énfasis en la asunción directa del poder y la toma de decisiones, la transformación consciente de las formas de vida y la gestión integral de los asuntos comunitarios o colectivos (Rodríguez Tamayo, 2019). 
 
     .row.no-gutters.align-items-center.mb-4.style___box_1.m-0(data-aos="zoom-in")
       .col-xl-auto.px-0
@@ -505,102 +505,97 @@
     
     p.mb-4 Basado en lo que representa cada uno de estos ejes estratégicos y la resolución en mención, a continuación, se relacionan las líneas de acción de la PPSS: 
 
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--C01" data-aos="zoom-in")
-      .row.justify-content-center(titulo="Fortalecimiento institucional")
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-          figure
-            img(src='@/assets/curso/temas/tema1/img-70.png', alt="Imagen decorativa")
-        .col-lg-6.order-lg-1.order-2
-          ul.lista-ul
-            li(data-aos="fade-right")
-              ul
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Destinar y gestionar recursos financieros y humanos. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Definir programas de formación y capacitación para el personal de salud. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Asistencia técnica a entidades territoriales para la implementación de la política. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Mecanismos de cofinanciación para proyectos de participación. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Gestiones interinstitucionales para la formación comunitaria en planeación y control social. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Transversalizar los procesos de participación en el ciclo de las políticas públicas. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Realizar ajustes normativos para facilitar la participación.
-      .row.justify-content-center(titulo="Empoderamiento de la ciudadanía y las organizaciones sociales en salud")
-        .col-lg-6.order-lg-1.order-2
-          ul.lista-ul
-            li(data-aos="fade-right")
-              ul
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Crear una estrategia pedagógica permanente para cualificar a los ciudadanos. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Establecer incentivos que promuevan la participación. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Impulsar y promocionar el uso de Tecnologías de Información y Comunicación (TIC). 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Fortalecer las estrategias de información y comunicación. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Promover formas de convocatoria que reconozcan las dinámicas territoriales.  
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Gestionar recursos para financiar iniciativas comunitarias. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Definir lineamientos para que las entidades territoriales garanticen la participación. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Fortalecer la representación de las comunidades en espacios de incidencia política. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Definir mecanismos de consulta y transferencia de información.
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-          figure
-            img(src='@/assets/curso/temas/tema1/img-71.png', alt="Imagen decorativa")
-      .row.justify-content-center(titulo="Impulso a la cultura de la salud")
-        .col-lg-6.order-lg-1.order-2
-          ul.lista-ul
-            li(data-aos="fade-right")
-              ul
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Diseñar una estrategia de comunicación para promover una cultura de bienestar.
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Impulsar un programa de formación para formadores comunitarios en salud pública. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Conformar y consolidar mecanismos para que la ciudadanía se apropie de los programas de promoción y prevención. 
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Incorporar la política de participación en los lineamientos de salud pública.
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-          figure
-            img(src='@/assets/curso/temas/tema1/img-72.png', alt="Imagen decorativa")
-      .row.justify-content-center(titulo="Control social en salud")
-        .col-lg-6.order-lg-1.order-2
-          ul.lista-ul
-            li(data-aos="fade-right")
-              ul
-                li(data-aos="fade-right") 
-                  i.lista-ul__vineta
-                  | Impulsar procesos de capacitación y formación para el desarrollo de capacidades ciudadanas en el control social.
-        .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-          figure
-            img(src='@/assets/curso/temas/tema1/img-73.png', alt="Imagen decorativa")
+    .row.justify-content-center.mb-4(data-aos="fade-right")
+      .col-lg-10.col-12
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--C01" data-aos="zoom-in")
+          .row.justify-content-center(titulo="Fortalecimiento institucional")
+            .col-12
+              .tarjeta_01.tarjeta--blanca.p-4
+                ul.lista-ul.mb-0
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Destinar y gestionar recursos financieros y humanos. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Definir programas de formación y capacitación para el personal de salud. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Asistencia técnica a entidades territoriales para la implementación de la política. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Mecanismos de cofinanciación para proyectos de participación. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Gestiones interinstitucionales para la formación comunitaria en planeación y control social.
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Realizar ajustes normativos para facilitar la participación.
+            .col-12.mb-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img-70.png', alt="Imagen decorativa")
+          .row.justify-content-center(titulo="Empoderamiento de la ciudadanía y las organizaciones sociales en salud")
+            .col-12
+              .tarjeta_01.tarjeta--blanca.p-4
+                ul.lista-ul.mb-0
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Crear una estrategia pedagógica permanente para cualificar a los ciudadanos. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Establecer incentivos que promuevan la participación. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Impulsar y promocionar el uso de Tecnologías de Información y Comunicación (TIC). 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Fortalecer las estrategias de información y comunicación. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Promover formas de convocatoria que reconozcan las dinámicas territoriales. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Gestionar recursos para financiar iniciativas comunitarias. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Definir lineamientos para que las entidades territoriales garanticen la participación. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Fortalecer la representación de las comunidades en espacios de incidencia política. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Definir mecanismos de consulta y transferencia de información.
+            .col-12.mb-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img-71.png', alt="Imagen decorativa")
+          .row.justify-content-center(titulo="Impulso a la cultura de la salud")
+            .col-12
+              .tarjeta_01.tarjeta--blanca.p-4
+                ul.lista-ul.mb-0
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Diseñar una estrategia de comunicación para promover una cultura de bienestar.
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Impulsar un programa de formación para formadores comunitarios en salud pública. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Conformar y consolidar mecanismos para que la ciudadanía se apropie de los programas de promoción y prevención. 
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Incorporar la política de participación en los lineamientos de salud pública.
+            .col-12.mb-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img-72.png', alt="Imagen decorativa")
+          .row.justify-content-center(titulo="Control social en salud")
+            .col-12
+              .tarjeta_01.tarjeta--blanca.p-4
+                ul.lista-ul.mb-0
+                  li.mb-0
+                    i.lista-ul__vineta(style="color: #30DF8E; font-size: 2rem")
+                    | Impulsar procesos de capacitación y formación para el desarrollo de capacidades ciudadanas en el control social.
+            .col-12.mb-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img-73.png', alt="Imagen decorativa")
 
     p Es de resaltar que los ejes 2, 3 y 4 de la Política de Participación Social en Salud (PPSS), responden al empoderamiento de las comunidades al otorgarles las herramientas, el conocimiento y la capacidad para ser actores activos y no solo receptores pasivos del sistema de salud. Cada uno de estos ejes contribuye de manera diferente y complementaria para lograr este objetivo. 
     p.mb-4 Por lo anterior, cada uno de estos tres ejes representa lo siguiente, basado en la normativa de análisis que es la Resolución 2063 de 2017: 
@@ -791,11 +786,11 @@
           h5 Figura 4.
           span <em>Ejemplo diagrama espina de pescado. Herramienta de análisis </em>    
         .row.justify-content-center
-          .col-lg-12.col-10.mb-4
+          .col-lg-12.col-12.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/figura-4-1v.svg', alt='Figura 4 que relaciona el método de diagrama de espina de pescado aplicado a un problema de desnutrición. En él de destaca que existen procesos macros como son los factores socioeconómicos, la alimentación, la cultura y los servicios y cada uno de ellos tiene una serie de aspectos que hacen alusión a la lluvia de ideas que se pueden extraer en cada uno.')
           .col-auto.movil(data-aos="fade-left")
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Ejemplo_diagrama_espina_de_pescado_Herramienta_de_análisis.pdf')" target="_blank")
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo_Ejemplo_diagrama_espina_de_pescado_Herramienta_de_analisis.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -866,7 +861,7 @@
                 li(data-aos="flip-right") 
                   .lista-ol--cuadro__vineta
                     span 3
-                  | Planificación colectiva de solucione y acciones.
+                  | Planificación colectiva de soluciones y acciones.
                 li(data-aos="flip-right") 
                   .lista-ol--cuadro__vineta
                     span 4
@@ -877,7 +872,7 @@
 
     p.mb-4 Empleando los instrumentos visuales que se desarrollan en actividades grupales mediante el diálogo de las situaciones que se presentan; con los resultados obtenidos se hace una evaluación de lo que ésta sucediendo, para una reflexión de lo que se presenta, los recursos con los que se cuenta y los que se deben gestionar para cada situación de interés en salud pública, que es adoptado en diferentes contextos culturales y sociales. Es necesario contar con un rol de facilitador para que acompañe, motive y garantice la horizontalidad de las relaciones y no se presente la forma tradicional de compartir los contenidos a desarrollar.
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(style="background-color:#FFF3D3")
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4(style="background-color:#FFF3D3")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-66.png')})`}" data-aos="fade-right"
       )
