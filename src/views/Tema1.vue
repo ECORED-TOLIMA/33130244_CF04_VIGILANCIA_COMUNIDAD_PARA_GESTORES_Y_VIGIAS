@@ -795,6 +795,14 @@
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p #[b Anexo_Ejemplo diagrama espina de pescado_Herramienta de análisis] 
+    
+    p.mb-4 Basado en los procesos de análisis, previamente explicadas, el siguiente video presenta la movilización social como una estrategia fundamental en salud pública, que promueve la participación activa de la comunidad en la identificación, análisis y solución de los problemas sanitarios que la afectan directamente. Para comprender las causas y efectos de estos problemas, se emplean herramientas como son el árbol de soluciones y el diagrama de espina de pescado: 
+
+    .row.justify-content-center.align-items-center.mb-4        
+      .col-lg-12
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ZRq0mUHk-wY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.mb-4.ms-0
       .col-auto.bg-c1(data-aos="fade-left")
