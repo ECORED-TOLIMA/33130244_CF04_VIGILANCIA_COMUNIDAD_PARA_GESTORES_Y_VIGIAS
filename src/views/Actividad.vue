@@ -16,7 +16,7 @@ export default {
       tema: 'Proponiendo, participando y autogestionando apoyo en la comunidad',
       titulo: 'Cuestionario',
       introduccion:
-        '<strong>objetivo:</strong> evaluar los conocimientos fundamentales sobre la movilización social y todo lo que la representa, con el fin de fortalecer la comprensión y aplicación de estrategias que permitan proponer, participar y autogestionar acciones de apoyo en la comunidad.',
+        '<strong>objetivo:</strong> evaluar los conocimientos fundamentales sobre la movilización social y autogestión en salud y todo lo que la representa, con el fin de fortalecer la comprensión y aplicación de estrategias que permitan proponer, participar y autogestionar acciones de apoyo en la comunidad.',
       barajarPreguntas: true,
       preguntas: [
         {

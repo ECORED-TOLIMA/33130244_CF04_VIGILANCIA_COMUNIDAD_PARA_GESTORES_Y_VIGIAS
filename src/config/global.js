@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Movilización social y autogestión en salud',
     descripcionCurso:
-      'Este componente formativo trata sobre la movilización social y la autogestión, impulsadas por la organización comunitaria y el empoderamiento. Promueve la participación activa, la toma de decisiones autónomas y el uso eficiente de recursos para transformar la salud pública. Se utilizan herramientas como el árbol de soluciones, la espina de pescado y SARAR para fortalecer el análisis y la acción colectiva',
+      'Este componente formativo trata sobre la movilización social y la autogestión, impulsadas por la organización comunitaria y el empoderamiento. Promueve la participación activa, la toma de decisiones autónomas y el uso eficiente de recursos para transformar la salud pública. Se utilizan herramientas como el árbol de soluciones, la espina de pescado y SARAR para fortalecer el análisis y la acción colectiva.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     imagenesDecorativasBanner: [
       {

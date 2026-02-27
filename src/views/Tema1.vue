@@ -65,9 +65,7 @@
           h4.text-center Duración y estructura informal
           p.mb-0 La movilización puede ser transitoria o sostenida, pero siempre más organizada que una simple protesta espontánea.
     
-    .row.justify-content-center.mb-4(data-aos="fade-right")
-      .col-lg-10.col-12
-        p La consolidación de la movilización social se genera cuando el proceso cuenta con la participación, corresponsabilidad y construcción colectiva de la comunidad. Para cumplir con esto depende de varios elementos, entre ellos están:
+    p.mb-4 La consolidación de la movilización social se genera cuando el proceso cuenta con la participación, corresponsabilidad y construcción colectiva de la comunidad. Para cumplir con esto depende de varios elementos, entre ellos están:
 
     .tarjeta--BG02.px-md-5.p-lg-0.p-4.mb-4
       .row.justify-content-center.align-items-center.my-lg-4.my-4
@@ -75,7 +73,7 @@
           figure
             img(src='@/assets/curso/temas/tema1/img-09.png', alt='alt' style='margin-bottom: -23px;')
         .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-4 col-xl-4")
+          SlyderF.custom.color-acento-botones.estilos(columnas="col-lg-4 col-xl-4")
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
@@ -102,9 +100,7 @@
                   img(src="@/assets/curso/temas/tema1/img-14.svg", alt="alt")
               p.text-center Evaluación y retroalimentación permanente para asegurar sostenibilidad.
 
-    .row.justify-content-center.mb-4(data-aos="fade-right")
-      .col-lg-10.col-12
-        p La movilización social es una estrategia clave en salud pública que involucra a la comunidad en la identificación, análisis y resolución de los problemas sanitarios que la afectan directamente. A través de procesos participativos, esta herramienta fomenta el empoderamiento de las personas, permitiéndoles convertirse en agentes de cambio dentro de sus comunidades. Esta metodología ha demostrado ser eficaz en la prevención de enfermedades, el control de brotes y la promoción de hábitos saludables (Eugenio et al., 2014).
+    p.mb-4 La movilización social es una estrategia clave en salud pública que involucra a la comunidad en la identificación, análisis y resolución de los problemas sanitarios que la afectan directamente. A través de procesos participativos, esta herramienta fomenta el empoderamiento de las personas, permitiéndoles convertirse en agentes de cambio dentro de sus comunidades. Esta metodología ha demostrado ser eficaz en la prevención de enfermedades, el control de brotes y la promoción de hábitos saludables (Eugenio et al., 2014).
 
     .row.justify-content-center.mb-0
       .col-xl-10
@@ -115,7 +111,7 @@
           .col-xl
             p.mb-0 Uno de los principales objetivos de la movilización social es generar cambios sostenibles en el comportamiento de la población. Para ello, se fomenta la participación de líderes comunitarios, organizaciones locales y de la comunidad en general en actividades de prevención y control.
 
-        p En contextos de brotes de enfermedades transmisibles, como dengue, malaria o incluso COVID-19, la movilización social resulta fundamental para:
+    p.mb-4 En contextos de brotes de enfermedades transmisibles, como dengue, malaria o incluso COVID-19, la movilización social resulta fundamental para:
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -264,7 +260,7 @@
                 img(src='@/assets/curso/temas/tema1/img-32.svg', alt='Imagen decorativa')
             .col-lg-10
               .bloque-texto-c.color-secundario.p-3(style="background-color:#FEEADD")
-                p.mb-0 Una organización comunitaria exitosa también se enfoca en planificar acciones con un propósito claro, lograr la participación activa de la mayoría de los miembros —partiendo de la premisa de que “juntos se puede lograr todo"— y en generar y utilizar otros recursos, como donaciones o apoyo. La comunicación efectiva con la comunidad es vital para mantener a todos informados sobre los objetivos, acciones y la importancia de su participación.
+                p.mb-0 Una organización comunitaria exitosa también se enfoca en planificar acciones con un propósito claro, lograr la participación activa de la mayoría de los miembros — partiendo de la premisa de que “juntos se puede lograr todo"— y en generar y utilizar otros recursos, como donaciones o apoyo. La comunicación efectiva con la comunidad es vital para mantener a todos informados sobre los objetivos, acciones y la importancia de su participación.
 
           p.mb-0(data-aos="fade-left") Es crucial entender que la organización comunitaria es un proceso de base. No se trata de que un experto externo imponga una agenda, sino de que los propios miembros de la comunidad participen y utilicen su energía para generar el cambio. El objetivo principal es descubrir lo que es importante para la gente y ayudarles a alcanzar esos objetivos, empoderándolos para mejorar sus vidas. Cuando se realiza de manera efectiva, la organización comunitaria provoca una redistribución del poder, creando una base sólida entre un grupo amplio de personas, especialmente en aquellos a quienes tradicionalmente se les ha negado una voz.(Centro para la Salud y Desarrollo Comunitario de la Universidad de Kansas, 2025)
           
@@ -284,7 +280,7 @@
               p.mb-0 Este es quizás el modelo más conocido y visual de organización comunitaria. La acción social es un enfoque de confrontación, guiado por el ideal de la justicia social. Su objetivo es que los miembros de grupos marginados o con poco poder se unan para demandar mayores recursos o un trato equitativo de la comunidad en general. Ejemplos históricos de este modelo incluyen las manifestaciones por los derechos civiles o las protestas para visibilizar las demandas de ciertos grupos.
           .row(titulo="Coaliciones")
             .col-lg-12.order-lg-1.order-2
-              p.mb-0 Las coaliciones son una estrategia efectiva y popular. Consisten en la creación de grupos amplios que reúnen a personas y organizaciones diversas —que normalmente no trabajarían juntas— para lograr un objetivo común. El poder de una coalición reside en el poder de la mayoría, ya que al unir a distintos actores se genera la fuerza necesaria para impulsar cambios significativos. Por ejemplo, una coalición para la prevención de enfermedades puede incluir a líderes religiosos, jóvenes, empresarios y funcionarios de salud, creando un frente unido para una causa.
+              p.mb-0 Las coaliciones son una estrategia efectiva y popular. Consisten en la creación de grupos amplios que reúnen a personas y organizaciones diversas — que normalmente no trabajarían juntas — para lograr un objetivo común. El poder de una coalición reside en el poder de la mayoría, ya que al unir a distintos actores se genera la fuerza necesaria para impulsar cambios significativos. Por ejemplo, una coalición para la prevención de enfermedades puede incluir a líderes religiosos, jóvenes, empresarios y funcionarios de salud, creando un frente unido para una causa.
 
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img-33.png' alt="Imagen decorativa")
@@ -300,8 +296,8 @@
           .col-xl
             p.mb-0 Constantemente pueden surgir formas nuevas y diferentes. Obedece a las lógicas comunitarias nacionales y subnacionales (departamental, distrital, comunal, barrial, veredas, etc.) Por lo cual, la autogestión surge como una noción importante para la dinamización de la acción colectiva. 
 
-        p Cómo previamente se mencionó, la autogestión en salud pública es un concepto que se refiere a la capacidad de una persona, familia o comunidad de asumir un rol activo y responsable en el cuidado de su propia salud. Va más allá del autocuidado individual y se enfoca en el empoderamiento colectivo para la toma de decisiones y la gestión de recursos que impactan el bienestar común.
-        p Este concepto abarca: 
+    p Cómo previamente se mencionó, la autogestión en salud pública es un concepto que se refiere a la capacidad de una persona, familia o comunidad de asumir un rol activo y responsable en el cuidado de su propia salud. Va más allá del autocuidado individual y se enfoca en el empoderamiento colectivo para la toma de decisiones y la gestión de recursos que impactan el bienestar común.
+    p Este concepto abarca: 
 
     .row.justify-content-center
       .col-lg-10
@@ -636,7 +632,7 @@
               p Al organizar a los miembros de una comunidad para alcanzar una meta común, se obtienen beneficios que van más allá del objetivo inicial, siempre que el proceso se realice de forma adecuada. Estos beneficios impactan positivamente en el poder colectivo, la autonomía y la equidad social.
               p.mb-0(data-aos="fade-down") La organización comunitaria amplía el potencial de cambio, ya que la voz colectiva de un grupo es mucho más poderosa que la de un individuo. Este esfuerzo conjunto permite a la comunidad ejercer una mayor influencia y lograr las transformaciones que desea ver. Es una estrategia eficaz para abordar problemas y generar soluciones sostenibles.
 
-        p En salud pública, la organización comunitaria es estratégica para abordar los determinantes sociales y estructurales que afectan la salud. Proyectos exitosos parten de la premisa de que el poder reside en la comunidad y que la transformación es real cuando la población se apropia del proceso, lidera la identificación de problemas y se involucra desde la base en la búsqueda y ejecución de soluciones. 
+    p En salud pública, la organización comunitaria es estratégica para abordar los determinantes sociales y estructurales que afectan la salud. Proyectos exitosos parten de la premisa de que el poder reside en la comunidad y que la transformación es real cuando la población se apropia del proceso, lidera la identificación de problemas y se involucra desde la base en la búsqueda y ejecución de soluciones. 
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -702,7 +698,7 @@
               h4 Ramas
               p Posibles soluciones que pueden surgir desde la comunidad.
 
-    p.mb-4.text-center A continuación, se relaciona una figura al respecto:
+    p.mb-4 A continuación, se relaciona una figura al respecto:
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10
@@ -713,9 +709,9 @@
         .row.bg-color-3.justify-content-center.align-items-center.p-4
           .col-lg-10
             figure.desktop
-              img(src='@/assets/curso/temas/tema1/figura-1-1v.svg', alt='Figura 1 que contiene una ejemplificación de un árbol de soluciones, el cual tiene entre sus ramas las acciones de pensar, plan, elegir y inventar frente a una problema.', style="width: 1043px").m-auto
+              img(src='@/assets/curso/temas/tema1/figura-1-1v.svg', alt='Figura 1 que representa el proceso de resolución de problemas. Las raíces muestran el problema identificado, la necesidad de mejora y el contexto inicial; el tronco simboliza el proceso de solución; y las ramas presentan las acciones de pensar, planear, inventar y elegir.', style="width: 1043px").m-auto
             figure.movil
-              img(src='@/assets/curso/temas/tema1/figura-1-2v.svg', alt='Figura 1 que contiene una ejemplificación de un árbol de soluciones, el cual tiene entre sus ramas las acciones de pensar, plan, elegir y inventar frente a una problema.', style="width: 1043px").m-auto
+              img(src='@/assets/curso/temas/tema1/figura-1-2v.svg', alt='Figura 1 que representa el proceso de resolución de problemas. Las raíces muestran el problema identificado, la necesidad de mejora y el contexto inicial; el tronco simboliza el proceso de solución; y las ramas presentan las acciones de pensar, planear, inventar y elegir.', style="width: 1043px").m-auto
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(style="background-color:#FFF3D3")
       .bloque-texto-g__img(
@@ -738,9 +734,9 @@
         .row.bg-color-3.justify-content-center.align-items-center.p-4
           .col-lg-10
             figure.desktop
-              img(src='@/assets/curso/temas/tema1/figura-2-1v.svg', alt='Figura 2 que relaciona las causas del problema por una enfermedad de fiebre amarilla y las posibles soluciones frente a esta. Se destaca que, para dar solución a esta problemática, debe haber vacunaciones, controles de vector, educación y vigilancia; además, que dentro de cada uno de estos procesos, existen acciones que se deben tomar.', style="width: 1043px").m-auto
+              img(src='@/assets/curso/temas/tema1/figura-2-1v.svg', alt='Figura 2 que relaciona el árbol de soluciones para la fiebre amarilla, el cual representa las causas del problema en las raíces, como la presencia de mosquitos transmisores, la falta de vacunación y la insuficiente vigilancia epidemiológica; el tronco muestra como problema central la propagación y el riesgo de contagio en la población; y las ramas presentan las estrategias de vacunación, control vectorial, educación y vigilancia, junto con acciones específicas para cada una.', style="width: 1043px").m-auto
             figure.movil
-              img(src='@/assets/curso/temas/tema1/figura-2-2v.svg', alt='Figura 2 que relaciona las causas del problema por una enfermedad de fiebre amarilla y las posibles soluciones frente a esta. Se destaca que, para dar solución a esta problemática, debe haber vacunaciones, controles de vector, educación y vigilancia; además, que dentro de cada uno de estos procesos, existen acciones que se deben tomar.', style="width: 1043px").m-auto
+              img(src='@/assets/curso/temas/tema1/figura-2-2v.svg', alt='Figura 2 que relaciona el árbol de soluciones para la fiebre amarilla, el cual representa las causas del problema en las raíces, como la presencia de mosquitos transmisores, la falta de vacunación y la insuficiente vigilancia epidemiológica; el tronco muestra como problema central la propagación y el riesgo de contagio en la población; y las ramas presentan las estrategias de vacunación, control vectorial, educación y vigilancia, junto con acciones específicas para cada una.', style="width: 1043px").m-auto
 
     .row.mb-4.ms-0
       .col-auto.bg-c1(data-aos="fade-left")
@@ -769,7 +765,7 @@
       .col-lg-10.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 3.
-          span <em>Árbol de soluciones para la enfermedad de fiebre amarilla</em>  
+          span <em>Esquema de la espina de pescado</em>  
 
         .row.justify-content-center
           .col-lg-12.col-12.mb-4
@@ -778,7 +774,7 @@
             figure.movil
               img(src='@/assets/curso/temas/tema1/figura-3-2v.svg', alt='Figura 3 que contiene la estructura sobre cómo se conforma el diagrama de espina de pescado, el cual relaciona que hay una máquina, un método, un material y una mano de obra, cada uno con sus respectivas subcausas.')
 
-    p.mb-4.text-center Ya conociendo la estructura de este diagrama, es importante analizar un ejemplo que trata el tema de la desnutrición y el cual se trata con esta herramienta:
+    p.mb-4 Ya conociendo la estructura de este diagrama, es importante analizar un ejemplo que trata el tema de la desnutrición y el cual se trata con esta herramienta:
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
@@ -890,10 +886,8 @@
         br
         p.mb-0 Para su realización esta metodología emplea herramientas didácticas y lúdicas (sociodramas, maquetas, títeres, historias, dinámicas, juegos, entre otras), concediendo a los participantes analizar su propia realidad e identificar las barreras o problemáticas existentes para su posterior diseño de estrategias de mejora en temas relacionados con factores que afectan la salud de las personas. Permitiendo, una reflexión crítica de lo que sucede en la comunidad, motivando la decisión colectiva para generar cambios en la comunidad. 
 
-    .row.justify-content-center.mb-4(data-aos="fade-right")
-      .col-lg-10.col-12
-        p Se recomienda que la sesión que se desarrolle sea por grupos homogéneos por edad y género, para fomentar la confianza y la participación, motivando un aprendizaje dinámico, adaptativo y contextualizado. Para el cierre de la sesión se propone exista una evaluación y realimentación a los participantes como para facilitadores, asegurando la apropiación del proceso.
-        p A continuación, se da un ejemplo sobre esta metodología, el cual trata sobre el manejo de los residuos sólidos en la comunidad San Miguel:
+    p Se recomienda que la sesión que se desarrolle sea por grupos homogéneos por edad y género, para fomentar la confianza y la participación, motivando un aprendizaje dinámico, adaptativo y contextualizado. Para el cierre de la sesión se propone exista una evaluación y realimentación a los participantes como para facilitadores, asegurando la apropiación del proceso.
+    p.mb-4 A continuación, se da un ejemplo sobre esta metodología, el cual trata sobre el manejo de los residuos sólidos en la comunidad San Miguel:
 
     .row.no-gutters.align-items-center.mb-4.style___box_1.m-0(data-aos="zoom-in")
       .col-xl-auto.px-0
