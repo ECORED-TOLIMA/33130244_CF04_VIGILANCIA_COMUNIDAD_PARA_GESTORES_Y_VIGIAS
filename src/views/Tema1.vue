@@ -24,13 +24,17 @@
             p.mb-0 De igual forma, Laraña refiere que la acción colectiva es la solidaridad para promover o impedir cambios sociales, donde una conducta antes que fuese norma se vuelve controvertida, lo que acarrea un rompimiento de los límites de las normas del sistema y de las relaciones sociales lo que promueve la producción de nuevas normas y legitimaciones en la sociedad (García Jerez, 2016; Tilly & Wood, 2010).
 
     .row.justify-content-center.mb-0
-      .col-lg-5.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-5.col-10.mb-4.mb-lg-0.d-none.d-lg-block(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema1/img-03.png', alt='Imagen decorativa')
       .col-lg-5       
         .cajon-b.color-primario.p-3(data-aos="fade-right")
           p Till & Wood consideran que los movimientos sociales son una acción en la que se involucran campañas colectivas que tienen el fin de reportar demandas a las autoridades, manifestaciones y creaciones de redes. A su vez, Melucci refiere que la movilización son redes de actores que a partir de una identidad colectiva para defender o modificar ciertos aspectos sociales mediante estrategias de acción colectiva (Centro de estudios en democracia y asuntos electorales, 2014; Contreras Hernández, 2022; Tilly & Wood, 2010).
-          p Según los anteriores autores, la movilización social presenta ciertas características: 
+    
+    .row.justify-content-center.mb-4
+      .col-lg-8(data-aos="fade-right")
+        .bloque-texto-c.color-primario.tarjeta.p-3
+          p.mb-0.text-center Según los anteriores autores, la movilización social presenta ciertas características: 
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
       SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-4")
@@ -65,15 +69,17 @@
           h4.text-center Duración y estructura informal
           p.mb-0 La movilización puede ser transitoria o sostenida, pero siempre más organizada que una simple protesta espontánea.
     
-    p.mb-4 La consolidación de la movilización social se genera cuando el proceso cuenta con la participación, corresponsabilidad y construcción colectiva de la comunidad. Para cumplir con esto depende de varios elementos, entre ellos están:
+    .row.justify-content-center.mb-4
+      .col-lg-10.col-12
+        p La consolidación de la movilización social se genera cuando el proceso cuenta con la participación, corresponsabilidad y construcción colectiva de la comunidad. Para cumplir con esto depende de varios elementos, entre ellos están:
 
-    .tarjeta--BG02.px-md-5.p-lg-0.p-4.mb-4
-      .row.justify-content-center.align-items-center.my-lg-4.my-4
+    .tarjeta--BG02.tarjeta--BG02-movilizacion.px-md-5.p-lg-0.p-4.mb-4
+      .row.justify-content-center.align-items-end.my-0.BG02-row
         .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop
           figure
-            img(src='@/assets/curso/temas/tema1/img-09.png', alt='alt' style='margin-bottom: -23px;')
+            img(src='@/assets/curso/temas/tema1/img-09.png', alt='alt')
         .col-lg-8
-          SlyderF.custom.color-acento-botones.estilos(columnas="col-lg-4 col-xl-4")
+          SlyderF.custom.color-acento-botones(columnas="col-lg-4 col-xl-4")
             .tarjeta.bgslyder.p-4
               .row.justify-content-center.mb-3
                 .col-7
@@ -100,7 +106,9 @@
                   img(src="@/assets/curso/temas/tema1/img-14.svg", alt="alt")
               p.text-center Evaluación y retroalimentación permanente para asegurar sostenibilidad.
 
-    p.mb-4 La movilización social es una estrategia clave en salud pública que involucra a la comunidad en la identificación, análisis y resolución de los problemas sanitarios que la afectan directamente. A través de procesos participativos, esta herramienta fomenta el empoderamiento de las personas, permitiéndoles convertirse en agentes de cambio dentro de sus comunidades. Esta metodología ha demostrado ser eficaz en la prevención de enfermedades, el control de brotes y la promoción de hábitos saludables (Eugenio et al., 2014).
+    .row.justify-content-center.mb-3
+      .col-lg-10.col-12
+        p La movilización social es una estrategia clave en salud pública que involucra a la comunidad en la identificación, análisis y resolución de los problemas sanitarios que la afectan directamente. A través de procesos participativos, esta herramienta fomenta el empoderamiento de las personas, permitiéndoles convertirse en agentes de cambio dentro de sus comunidades. Esta metodología ha demostrado ser eficaz en la prevención de enfermedades, el control de brotes y la promoción de hábitos saludables (Eugenio et al., 2014).
 
     .row.justify-content-center.mb-0
       .col-xl-10
@@ -111,7 +119,7 @@
           .col-xl
             p.mb-0 Uno de los principales objetivos de la movilización social es generar cambios sostenibles en el comportamiento de la población. Para ello, se fomenta la participación de líderes comunitarios, organizaciones locales y de la comunidad en general en actividades de prevención y control.
 
-    p.mb-4 En contextos de brotes de enfermedades transmisibles, como dengue, malaria o incluso COVID-19, la movilización social resulta fundamental para:
+        p.mb-4 En contextos de brotes de enfermedades transmisibles, como dengue, malaria o incluso COVID-19, la movilización social resulta fundamental para:
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -130,17 +138,15 @@
           .tarjeta--boton.color-secundario.p-4.py-5.h-100(style="background-color:#FFDD8B;")
             h4.text-center.mt-5(style="color:#12263F") Movilizar recursos locales.
 
-    .row.justify-content-center.mb-4
-      .col-1.d-none.d-lg-block
-        figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema1/img-19.svg', alt='Imagen decorativa')
-      .col-11
-        p Un ejemplo exitoso de movilización social en salud pública es la eliminación de la malaria en comunidades rurales. A través de campañas educativas, la limpieza de criaderos de mosquitos y la distribución de mosquiteros, las comunidades han logrado reducir significativamente la incidencia de esta enfermedad. Este tipo de intervenciones se logran mediante la colaboración entre actores comunitarios, instituciones de salud y organizaciones no gubernamentales, lo que evidencia la importancia del trabajo conjunto y coordinado.
-        p.mb-0(data-aos="fade-right") En Colombia existen diversas movilizaciones en salud. De acuerdo con Torres et al., (2022):
+    p Un ejemplo exitoso de movilización social en salud pública es la eliminación de la malaria en comunidades rurales. A través de campañas educativas, la limpieza de criaderos de mosquitos y la distribución de mosquiteros, las comunidades han logrado reducir significativamente la incidencia de esta enfermedad. Este tipo de intervenciones se logran mediante la colaboración entre actores comunitarios, instituciones de salud y organizaciones no gubernamentales, lo que evidencia la importancia del trabajo conjunto y coordinado.
+    p.mb-4(data-aos="fade-right") En Colombia existen diversas movilizaciones en salud. De acuerdo con Torres et al., (2022):
 
-    .row.justify-content-center.mb-4
-      .col-lg-10.mb-lg-0.mb-4(data-aos="fade-right")
-        .bloque-texto-d.color-secundario.p-4
+    .row.justify-content-center
+      .col-2.d-none.d-lg-block
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/temas/tema1/img-19.png', alt='Imagen decorativa')
+      .col-10
+        .bloque-texto-d.color-secundario.p-4.mb-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             p.text-regular Las movilizaciones sociales en salud en Colombia son un proceso de acción colectiva de la sociedad civil que busca influir en el cambio social para garantizar la salud como un derecho fundamental. Se enmarca en un estudio internacional del Movimiento de Salud de los Pueblos (MSP) y reúne diversos casos de estudio que demuestran cómo la participación ciudadana se ha convertido en una herramienta clave para exigir la salud en el país. El objetivo común de estos casos es mostrar la capacidad de la sociedad para actuar de manera organizada y concertada con el fin de demandar un sistema de salud más justo y accesible para todos.
@@ -148,12 +154,7 @@
           .bloque-texto-d__autor 
             .h6.mb-0 - Torres et al., (2022)
 
-    .row.justify-content-center
-      .col-xl-10
         .cajon.cajon.color-secundario-medio.row.align-items-center.m-0.style___box_1.p-4.mb-4(data-aos="zoom-in").espacio___movil_1
-          .col-xl-auto(data-aos="fade-right")
-            figure.d-none.d-xl-block
-              img(src='@/assets/curso/temas/tema1/img-20.svg', alt='').m-auto
           .col-xl
             p.mb-0 Estas movilizaciones son un amplio espectro de iniciativas ciudadanas que responden a las deficiencias o desafíos del sistema de salud. El texto no se limita a un tipo de protesta, sino que presenta diversas formas en que la sociedad se involucra: desde el activismo de base hasta la organización formal de comunidades. 
 
@@ -246,25 +247,22 @@
       .col-11
         p.mb-0(data-aos="fade-right") La organización comunitaria es un proceso fundamental que permite a las personas unirse para identificar problemas o metas comunes. Su propósito es movilizar recursos, desarrollar estrategias y lograr objetivos colectivos. Este enfoque es la base de muchas de las iniciativas que buscan el cambio social, ya que promueve la colaboración y el empoderamiento.
 
-    p.mb-4 Para que la organización comunitaria sea efectiva, debe incluir varios elementos clave. El primer paso es obtener un profundo conocimiento de la comunidad, identificando lo que realmente importa a sus miembros. A partir de ahí, el proceso se centra en generar y utilizar el poder de diversas formas, como el poder político o legislativo para influir en las leyes, el poder del consumidor a través de #[em boicots] o el poder jurídico para hacer cumplir las normas. También puede manifestarse como un poder disociador, por ejemplo, mediante una huelga para reclamar mejores condiciones laborales.(Centro para la Salud y Desarrollo Comunitario de la Universidad de Kansas, 2025).
+    .bg-c2.px-md-5.px-4.mb-4
+      p Para que la organización comunitaria sea efectiva, debe incluir varios elementos clave. El primer paso es obtener un profundo conocimiento de la comunidad, identificando lo que realmente importa a sus miembros. A partir de ahí, el proceso se centra en generar y utilizar el poder de diversas formas, como el poder político o legislativo para influir en las leyes, el poder del consumidor a través de #[em boicots] o el poder jurídico para hacer cumplir las normas. También puede manifestarse como un poder disociador, por ejemplo, mediante una huelga para reclamar mejores condiciones laborales.(Centro para la Salud y Desarrollo Comunitario de la Universidad de Kansas, 2025).
+      .row.justify-content-center.mb-0
+        .col-xl-10
+          .cajon.cajon.color-secundario-medio.row.align-items-center.m-0.style___box_1.p-4.mb-4(data-aos="zoom-in").espacio___movil_1
+            .col-xl
+              p.mb-0 Una organización comunitaria exitosa también se enfoca en planificar acciones con un propósito claro, lograr la participación activa de la mayoría de los miembros —partiendo de la premisa de que “juntos se puede lograr todo"— y en generar y utilizar otros recursos, como donaciones o apoyo. La comunicación efectiva con la comunidad es vital para mantener a todos informados sobre los objetivos, acciones y la importancia de su participación.
 
-    .bg-c2.px-md-5.px-4.mb-0
-      .row.justify-content-center.mb-4
-        .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
+      .row.justify-content-center.mb-0
+        .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
-            img(src='@/assets/curso/temas/tema1/img-31.png', alt='Imagen decorativa')
-        .col-lg-8       
-          .row.justify-content-center.mb-3
-            .col-lg-2.d-none.d-lg-block(data-aos="zoom-in")
-              figure
-                img(src='@/assets/curso/temas/tema1/img-32.svg', alt='Imagen decorativa')
-            .col-lg-10
-              .bloque-texto-c.color-secundario.p-3(style="background-color:#FEEADD")
-                p.mb-0 Una organización comunitaria exitosa también se enfoca en planificar acciones con un propósito claro, lograr la participación activa de la mayoría de los miembros — partiendo de la premisa de que “juntos se puede lograr todo"— y en generar y utilizar otros recursos, como donaciones o apoyo. La comunicación efectiva con la comunidad es vital para mantener a todos informados sobre los objetivos, acciones y la importancia de su participación.
-
-          p.mb-0(data-aos="fade-left") Es crucial entender que la organización comunitaria es un proceso de base. No se trata de que un experto externo imponga una agenda, sino de que los propios miembros de la comunidad participen y utilicen su energía para generar el cambio. El objetivo principal es descubrir lo que es importante para la gente y ayudarles a alcanzar esos objetivos, empoderándolos para mejorar sus vidas. Cuando se realiza de manera efectiva, la organización comunitaria provoca una redistribución del poder, creando una base sólida entre un grupo amplio de personas, especialmente en aquellos a quienes tradicionalmente se les ha negado una voz.(Centro para la Salud y Desarrollo Comunitario de la Universidad de Kansas, 2025)
+            img(src='@/assets/curso/temas/tema1/img-79.svg', alt='Imagen decorativa')
+        .col-lg-7       
+          p Es crucial entender que la organización comunitaria es un proceso de base. No se trata de que un experto externo imponga una agenda, sino de que los propios miembros de la comunidad participen y utilicen su energía para generar el cambio. El objetivo principal es descubrir lo que es importante para la gente y ayudarles a alcanzar esos objetivos, empoderándolos para mejorar sus vidas. Cuando se realiza de manera efectiva, la organización comunitaria provoca una redistribución del poder, creando una base sólida entre un grupo amplio de personas, especialmente en aquellos a quienes tradicionalmente se les ha negado una voz.(Centro para la Salud y Desarrollo Comunitario de la Universidad de Kansas, 2025)
           
-      p.mb-4 Existen diversas estrategias de organización y autogestión en las comunidades. Aunque no son excluyentes y pueden combinarse, su comprensión por separado ayuda a los organizadores a definir sus estrategias; por ello, se da una explicación de cada una: 
+      p Existen diversas estrategias de organización y autogestión en las comunidades. Aunque no son excluyentes y pueden combinarse, su comprensión por separado ayuda a los organizadores a definir sus estrategias; por ello, se da una explicación de cada una: 
 
     .row.justify-content-center.mb-4
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
@@ -282,12 +280,12 @@
             .col-lg-12.order-lg-1.order-2
               p.mb-0 Las coaliciones son una estrategia efectiva y popular. Consisten en la creación de grupos amplios que reúnen a personas y organizaciones diversas — que normalmente no trabajarían juntas — para lograr un objetivo común. El poder de una coalición reside en el poder de la mayoría, ya que al unir a distintos actores se genera la fuerza necesaria para impulsar cambios significativos. Por ejemplo, una coalición para la prevención de enfermedades puede incluir a líderes religiosos, jóvenes, empresarios y funcionarios de salud, creando un frente unido para una causa.
 
-      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img-33.png' alt="Imagen decorativa")
 
     p.mb-4 Es importante recordar que estos enfoques no son totalmente independientes; un grupo puede usar tácticas de acción social para un proyecto de desarrollo local o una coalición puede emplear la planificación social para alcanzar sus metas. Sin embargo, categorizarlos de esta manera ayuda a los organizadores a pensar de forma estratégica y a alinear sus métodos con sus valores y objetivos.
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-4
       .col-xl-10
         .cajon.cajon.color-secundario-medio.row.align-items-center.m-0.style___box_1.p-4.mb-4(data-aos="zoom-in").espacio___movil_1
           .col-xl-auto(data-aos="fade-right")
@@ -296,30 +294,36 @@
           .col-xl
             p.mb-0 Constantemente pueden surgir formas nuevas y diferentes. Obedece a las lógicas comunitarias nacionales y subnacionales (departamental, distrital, comunal, barrial, veredas, etc.) Por lo cual, la autogestión surge como una noción importante para la dinamización de la acción colectiva. 
 
-    p Cómo previamente se mencionó, la autogestión en salud pública es un concepto que se refiere a la capacidad de una persona, familia o comunidad de asumir un rol activo y responsable en el cuidado de su propia salud. Va más allá del autocuidado individual y se enfoca en el empoderamiento colectivo para la toma de decisiones y la gestión de recursos que impactan el bienestar común.
-    p Este concepto abarca: 
+        p Cómo previamente se mencionó, la autogestión en salud pública es un concepto que se refiere a la capacidad de una persona, familia o comunidad de asumir un rol activo y responsable en el cuidado de su propia salud. Va más allá del autocuidado individual y se enfoca en el empoderamiento colectivo para la toma de decisiones y la gestión de recursos que impactan el bienestar común.
+        p Este concepto abarca: 
+
+    .row.justify-content-center.mb-4(data-aos="flip-up")
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
+        .crd.crd--grayGrad(data-aos="flip-left")
+          .bottomCircle.mb-5
+            figure
+              img(src="@/assets/curso/temas/tema1/img-80.svg", alt="alt").img90.m-auto
+          h4.text-center Autonomía y decisión
+          p.text-center.mb-0 Implica que las comunidades no son solo “objetos de cuidados” sino sujetos activos, capaces de tomar decisiones informadas sobre su salud. Esto incluye la gestión de los recursos disponibles, la participación en programas de prevención y la elección de estrategias que se adapten a sus necesidades específicas.
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
+        .crd.crd--grayGrad(data-aos="flip-left")
+          .bottomCircle.mb-5
+            figure
+              img(src="@/assets/curso/temas/tema1/img-81.svg", alt="alt").img90.m-auto
+          h4.text-center Gestión de recursos
+          p.text-center.mb-0 En un nivel organizacional, la autogestión también puede significar que los equipos de profesionales o las entidades de atención primaria asumen la responsabilidad y autonomía para gestionar los recursos a su disposición, con el objetivo de optimizar la atención.
+      .col-xl-4.col-lg-8.mb-4.mb-xl-5
+        .crd.crd--grayGrad(data-aos="flip-left")
+          .bottomCircle.mb-5
+            figure
+              img(src="@/assets/curso/temas/tema1/img-82.svg", alt="alt").img90.m-auto
+          h4.text-center Proceso integral
+          p.text-center.mb-0 La autogestión es un proceso complejo que combina factores sociológicos, culturales, políticos y tecnológicos. No se limita a la esfera médica, sino que busca desarrollar espacios de solidaridad y respeto, donde la comunidad es protagonista de su propio bienestar. 
 
     .row.justify-content-center
-      .col-lg-10
-        PasosA.color-acento-contenido.mb-4(tipo="n")
-          .row.justify-content-center
-            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
-              h4 Autonomía y decisión
-              p.mb-0 Implica que las comunidades no son solo “objetos de cuidados” sino sujetos activos, capaces de tomar decisiones informadas sobre su salud. Esto incluye la gestión de los recursos disponibles, la participación en programas de prevención y la elección de estrategias que se adapten a sus necesidades específicas.
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-down")
-              img(src='@/assets/curso/temas/tema1/img-35.png', alt="Imagen decorativa")          
-          .row.justify-content-center
-            .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-down")
-              img(src='@/assets/curso/temas/tema1/img-36.png', alt="Imagen decorativa")          
-            .col-lg-8(data-aos="fade-down")
-              h4 Gestión de recursos
-              p.mb-0 En un nivel organizacional, la autogestión también puede significar que los equipos de profesionales o las entidades de atención primaria asumen la responsabilidad y autonomía para gestionar los recursos a su disposición, con el objetivo de optimizar la atención.
-          .row.justify-content-center
-            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
-              h4 Proceso integral
-              p.mb-0 La autogestión es un proceso complejo que combina factores sociológicos, culturales, políticos y tecnológicos. No se limita a la esfera médica, sino que busca desarrollar espacios de solidaridad y respeto, donde la comunidad es protagonista de su propio bienestar. 
-            .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-down")
-              img(src='@/assets/curso/temas/tema1/img-37.png', alt="Imagen decorativa") 
+      .col-lg-10.col-12
+        figure.mb-4
+          img(src='@/assets/curso/temas/tema1/img-83.png', alt='') 
 
     .row.justify-content-center
       .col-xl-10
@@ -360,7 +364,7 @@
         .tarjeta.tarjeta--BGC02.p-4.mb-4
           p.mb-0 Además, la Resolución 0429 de 2016 refuerza esta idea al adoptar la Política de Atención Integral en Salud (PAIS). Este documento subraya la necesidad de una retroalimentación constante en el modelo de atención para mejorar los resultados en salud. Para ello, se deben implementar planes que incluyan estrategias de educación, comunicación y gestión que permitan la participación social en salud como un proceso continuo y dinámico. En esencia, la realización de este derecho no es posible sin una participación activa y efectiva de la ciudadanía.
         p Basado en lo anterior y a lo expuesto por el Ministerio de Salud y Protección Social en su normatividad 2015 - 2017, se relacionan los siguientes contenidos, los cuales tratan el marco legal del derecho a la salud y a la participación:  
-      .col-lg-3.col-md-6.col-8.order-1.mb-lg-0.mb-4
+      .col-lg-3.col-md-6.col-8.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema1/img-40.svg', alt='Imagen decorativa')
 
@@ -447,14 +451,14 @@
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         .bg-color-2.mb-3(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.d-none.d-lg-block
               figure
                 img(src='@/assets/curso/temas/tema1/img-48.svg', alt='')
             .col-lg
               .p-3
                 p Este derecho incluye la posibilidad de participar en la formulación de la política en salud y en el diseño de los planes para su implementación. Adicionalmente, permite a los ciudadanos #[b ser parte de los programas de promoción y prevención], así como #[b unirse a instancias de deliberación, veeduría y seguimiento del sistema para garantizar su correcto funcionamiento.]
         p Finalmente, #[b la ley otorga a la ciudadanía el poder de influir directamente en las decisiones críticas del sector.] Esto abarca la participación en la inclusión o exclusión de servicios y tecnologías, la definición de las prioridades de salud y las decisiones que puedan implicar una restricción en el acceso a los establecimientos de salud. La participación también se extiende a #[b la evaluación de los resultados de las políticas de salud], cerrando el ciclo de intervención ciudadana.
-      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src="@/assets/curso/temas/tema1/img-49.png", data-aos="zoom-in")
 
@@ -596,23 +600,18 @@
     p Es de resaltar que los ejes 2, 3 y 4 de la Política de Participación Social en Salud (PPSS), responden al empoderamiento de las comunidades al otorgarles las herramientas, el conocimiento y la capacidad para ser actores activos y no solo receptores pasivos del sistema de salud. Cada uno de estos ejes contribuye de manera diferente y complementaria para lograr este objetivo. 
     p.mb-4 Por lo anterior, cada uno de estos tres ejes representa lo siguiente, basado en la normativa de análisis que es la Resolución 2063 de 2017: 
 
-    .row.justify-content-center
-      .col-lg-10(data-aos="fade-right")
-        ImagenInfograficaB.color-acento-botones.desktop
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/temas/tema1/img-55-01.svg', alt='Imagen decorativa')
-          div(x="92%" y="18.5%" numero="+")
-            h4 Eje 2
-            p Se centra directamente en el #[b empoderamiento de las comunidades] al fortalecer sus capacidades para participar activamente en el sistema de salud. A través de la implementación de estrategias pedagógicas permanentes y la promoción de incentivos, la política busca que la ciudadanía y sus organizaciones adquieran el conocimiento y las habilidades necesarias para influir en las decisiones. Asimismo, al impulsar el uso de Tecnologías de Información y Comunicación (TIC) y fortalecer la representación comunitaria, este eje dota a las personas de los canales y espacios formales para que sus voces sean escuchadas y sus propuestas, tenidas en cuenta en la formulación, ejecución y evaluación de las políticas de salud.
-          div(x="92%" y="49%" numero="+")
-            h4 Eje 3
-            p Potencia el empoderamiento al cambiar la percepción de la salud de un servicio a un #[b bien público y una construcción social]. Al promover una cultura de la salud, las comunidades se apropian de su bienestar a través del autocuidado y el cuidado colectivo. Esto las empodera al convertirlas en protagonistas de su propia salud, incentivándolas a participar en programas de promoción y prevención, así como a trabajar en conjunto para mejorar las condiciones de vida de su entorno. En lugar de depender de las instituciones para resolver sus problemas, la comunidad se convierte en un agente de cambio proactivo, lo que es una forma de empoderamiento fundamental.
-          div(x="92%" y="79.5%" numero="+")
-            h4 Eje 4
-            p Otorga a las comunidades la capacidad de #[b vigilancia y rendición de cuentas]. Al fortalecer el control social, la política reconoce el derecho de los ciudadanos a supervisar la gestión de los recursos públicos, la calidad de los servicios y el cumplimiento de los planes de salud. Esto dota a la comunidad de una herramienta de poder político y ciudadano para exigir transparencia y asegurar que el sistema de salud responda a sus necesidades reales, garantizando que el derecho a la salud se cumpla de manera efectiva.
-        figure.movil
-          img(src='@/assets/curso/temas/tema1/img-55-02.svg', alt='Imagen decorativa')
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-8.order-2
+        TabsA.color-acento-botones.mb-4(data-aos="fade-right")
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Eje 2")
+            p.mb-0 Se centra directamente en el #[b empoderamiento de las comunidades] al fortalecer sus capacidades para participar activamente en el sistema de salud. A través de la implementación de estrategias pedagógicas permanentes y la promoción de incentivos, la política busca que la ciudadanía y sus organizaciones adquieran el conocimiento y las habilidades necesarias para influir en las decisiones. Asimismo, al impulsar el uso de Tecnologías de Información y Comunicación (TIC) y fortalecer la representación comunitaria, este eje dota a las personas de los canales y espacios formales para que sus voces sean escuchadas y sus propuestas, tenidas en cuenta en la formulación, ejecución y evaluación de las políticas de salud.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Eje 3")
+            p.mb-0 Potencia el empoderamiento al cambiar la percepción de la salud de un servicio a un #[b bien público y una construcción social.] Al promover una cultura de la salud, las comunidades se apropian de su bienestar a través del autocuidado y el cuidado colectivo. Esto las empodera al convertirlas en protagonistas de su propia salud, incentivándolas a participar en programas de promoción y prevención, así como a trabajar en conjunto para mejorar las condiciones de vida de su entorno. En lugar de depender de las instituciones para resolver sus problemas, la comunidad se convierte en un agente de cambio proactivo, lo que es una forma de empoderamiento fundamental.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Eje 4")
+            p.mb-0 Otorga a las comunidades la capacidad de #[b vigilancia y rendición de cuentas.] Al fortalecer el control social, la política reconoce el derecho de los ciudadanos a supervisar la gestión de los recursos públicos, la calidad de los servicios y el cumplimiento de los planes de salud. Esto dota a la comunidad de una herramienta de poder político y ciudadano para exigir transparencia y asegurar que el sistema de salud responda a sus necesidades reales, garantizando que el derecho a la salud se cumpla de manera efectiva.
+      .col-lg-4.col-md-6.col-8.order-1.mb-lg-0.mb-4.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/tema1/img-84.png', alt='Imagen decorativa')
 
     Separador
 
@@ -625,14 +624,17 @@
       .col-lg-10.col-12
         .cajon.cajon.C01.px-4.py-4.mb-4
           .row.justify-content-center
-            .col-lg-2.col-4.mb-lg-0.mb-4
+            .col-lg-2.col-4.mb-lg-0.mb-4.d-none.d-lg-block
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/temas/tema1/img-56.svg', alt='Imagen decorativa')
             .col-lg-10.col-12
               p Al organizar a los miembros de una comunidad para alcanzar una meta común, se obtienen beneficios que van más allá del objetivo inicial, siempre que el proceso se realice de forma adecuada. Estos beneficios impactan positivamente en el poder colectivo, la autonomía y la equidad social.
               p.mb-0(data-aos="fade-down") La organización comunitaria amplía el potencial de cambio, ya que la voz colectiva de un grupo es mucho más poderosa que la de un individuo. Este esfuerzo conjunto permite a la comunidad ejercer una mayor influencia y lograr las transformaciones que desea ver. Es una estrategia eficaz para abordar problemas y generar soluciones sostenibles.
 
-    p En salud pública, la organización comunitaria es estratégica para abordar los determinantes sociales y estructurales que afectan la salud. Proyectos exitosos parten de la premisa de que el poder reside en la comunidad y que la transformación es real cuando la población se apropia del proceso, lidera la identificación de problemas y se involucra desde la base en la búsqueda y ejecución de soluciones. 
+        p En salud pública, la organización comunitaria es estratégica para abordar los determinantes sociales y estructurales que afectan la salud. Proyectos exitosos parten de la premisa de que el poder reside en la comunidad y que la transformación es real cuando la población se apropia del proceso, lidera la identificación de problemas y se involucra desde la base en la búsqueda y ejecución de soluciones. 
+
+        figure
+          img(src='@/assets/curso/temas/tema1/img-85.png', alt='') 
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
@@ -663,7 +665,7 @@
       h2 1.4. Herramientas de análisis 
 
     .row.justify-content-center.mb-4
-      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4
+      .col-lg-3.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/tema1/img-59.svg' alt="Imagen decorativa")
       .col-lg-9.order-lg-1.order-2.mb-lg-0.mb-4
         p(style="color:#000") Las herramientas de análisis en la participación social son instrumentos, metodologías y técnicas que facilitan la medición, seguimiento y fortalecimiento de los procesos participativos en salud pública y desarrollo comunitario. Su propósito es evaluar cómo, cuánto y con qué impacto distintos actores sociales se involucran y contribuyen a la toma de decisiones, la gestión de recursos y el control social sobre los temas que los afectan. (Sanabria, 2004).
@@ -698,7 +700,10 @@
               h4 Ramas
               p Posibles soluciones que pueden surgir desde la comunidad.
 
-    p.mb-4 A continuación, se relaciona una figura al respecto:
+    .row.justify-content-center.mb-4
+      .col-lg-6(data-aos="fade-right")
+        .bloque-texto-c.color-primario.tarjeta.p-3
+          p.mb-0.text-center A continuación, se relaciona una figura al respecto:
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10
@@ -723,10 +728,9 @@
         br
         p.mb-0 Inicia con la identificación de un problema central, seguido por el análisis de sus causas y la definición de sus consecuencias. Esta metodología ofrece varios beneficios: brinda una visión integral, ayuda a priorizar acciones y fomenta la participación comunitaria en la búsqueda de soluciones reales. Además, busca generar la autogestión en los afectados y agentes comunitarios, así como promover la organización y movilización social, conectando a los ciudadanos con instituciones de salud y otros sectores, para facilitar la promoción de la salud, la prevención y control de eventos de interés en salud pública.
 
-    p.mb-4 Para entender un poco esta herramienta, a continuación, se relaciona un ejemplo que se presentaría frente a una problemática de fiebre amarilla:
-
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10
+        p Para entender un poco esta herramienta, a continuación, se relaciona un ejemplo que se presentaría frente a una problemática de fiebre amarilla:
         .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 2.
           span <em>Árbol de soluciones para la enfermedad de fiebre amarilla</em>  
@@ -750,7 +754,7 @@
     p.mb-4 Este diagrama también es conocido como Ishikawa o de Causa-Efecto, tiene por objeto organizar las causas de un problema específico. La estructura es semejante a un esqueleto de un pescado en donde la cabeza es el problema y la espina representa las múltiples causas específicas de este.
 
     .row.justify-content-center.mb-4
-      .col-lg-4.col-md-6.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-lg-4.col-md-6.col-8.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema1/img-63.png', alt='Imagen decorativa')
       .col-lg-8.mb-lg-0(data-aos="fade-left")
@@ -759,7 +763,11 @@
         .cajon.cajon.color-secundario-medio.p-4.mb-4
           p.mb-0 El método para su desarrollo es por medio de una lluvia de ideas que se organizan según la categoría a la que corresponden, hasta encontrar la causa raíz, con base en lo que se presente se analiza y se busca la posible solución al problema.
         p Las oportunidades que brinda este método es la visualización clara de las posibles causas de un problema, facilitando la comprensión de este proceso, a su vez, al identificar las causas de raíz se profundiza en las causas del problema. Es una herramienta que favorece el trabajo de equipo, promoviendo la participación comunitaria y a su vez, permite la toma de decisiones de forma informada.
-        p Partiendo de lo anterior, se relaciona la estructura de este diagrama:
+    
+    .row.justify-content-center.mb-4
+      .col-lg-8(data-aos="fade-right")
+        .bloque-texto-c.color-primario.tarjeta.p-3
+          p.mb-0.text-center Partiendo de lo anterior, se relaciona la estructura de este diagrama:
 
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10.col-12
@@ -774,7 +782,10 @@
             figure.movil
               img(src='@/assets/curso/temas/tema1/figura-3-2v.svg', alt='Figura 3 que contiene la estructura sobre cómo se conforma el diagrama de espina de pescado, el cual relaciona que hay una máquina, un método, un material y una mano de obra, cada uno con sus respectivas subcausas.')
 
-    p.mb-4 Ya conociendo la estructura de este diagrama, es importante analizar un ejemplo que trata el tema de la desnutrición y el cual se trata con esta herramienta:
+    .row.justify-content-center.mb-4
+      .col-lg-12(data-aos="fade-right")
+        .bloque-texto-c.color-primario.tarjeta.p-3
+          p.mb-0.text-center Ya conociendo la estructura de este diagrama, es importante analizar un ejemplo que trata el tema de la desnutrición y el cual se trata con esta herramienta:
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
@@ -812,43 +823,43 @@
     p Esta metodología tiene un enfoque educativo y de capacitación que favorece el desarrollo de la autoestima, el fortalecimiento asociativo, el ingenio, la planificación de acciones y la responsabilidad de las personas para la resolución de problemas dentro de la comunidad; el enfoque participativo se centra en la persona que aprende para fortalecer la capacidad para la toma de decisiones en salud y saneamiento bajo premisas de respeto y confianza. Este método tiene como énfasis la salud y saneamiento en las comunidades especialmente las rurales (Marinof, Amalia & Centurión, 2001).
     p.mb-4 Esta metodología corresponde a un acrónimo en inglés que corresponde a las siguientes cualidades: 
     
-    .row.mb-4
-      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-right")(style="background-color:#FFF3D3")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema1/img-74.svg' alt="Imagen decorativa")
-        h4.text-center #[em Self - esteem]
-        p.text-center.mb-0 (Autoestima)
-      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-right")(style="background-color:#FEEADD")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema1/img-75.svg' alt="Imagen decorativa")
-        h4.text-center #[em Associative strengths] 
-        p.text-center.mb-0 (Fuerzas asociativas)
-      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="flip-left")(style="background-color:#FFF3D3")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema1/img-76.svg' alt="Imagen decorativa")
-        h4.text-center #[em Resourcefulness] 
-        p.text-center.mb-0 (Ingenio)
-      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-left")(style="background-color:#FEEADD")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema1/img-77.svg' alt="Imagen decorativa")
-        h4.text-center #[em Action plannig]
-        p.text-center.mb-0 (Planificación de la acción)
-      .col-lg.col-md-6.tarjeta--tabla.p-4(data-aos="fade-left")(style="background-color:#FFF3D3")
-        .row.justify-content-center.mb-3
-          .col-4
-            img(src='@/assets/curso/temas/tema1/img-78.svg' alt="Imagen decorativa")
-        h4.text-center #[em Responsability]
-        p.text-center.mb-0 (Responsabilidad)
+    .row.mb-4.tarjetas-sarp(data-aos="flip-up")
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2 1
+          h4.text-center #[em Self - esteem]
+          p.text-center.mb-0 (Autoestima)
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2 2
+          h4.text-center #[em Associative strengths] 
+          p.text-center.mb-0 (Fuerzas asociativas)
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2 3
+          h4.text-center #[em Resourcefulness] 
+          p.text-center.mb-0 (Ingenio)
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-adicional-4.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2 4
+          h4.text-center #[em Action plannig]
+          p.text-center.mb-0 (Planificación de la acción)
+      .col-md-6.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-5.h-100
+          .tarjeta-numerada__numero
+            .h2 5
+          h4.text-center #[em Responsability]
+          p.text-center.mb-0 (Responsabilidad)
 
     .row.justify-content-center.mb-4
       .col-lg-8.col-12
         .cajon.cajon.C01.px-4.py-4.mb-4
           .row.justify-content-center
-            .col-lg-2.col-4.mb-lg-0.mb-4
+            .col-lg-2.col-4.mb-lg-0.mb-4.d-none.d-lg-block
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/temas/tema1/img-64.svg', alt='Imagen decorativa')
             .col-lg-10.col-12
@@ -870,24 +881,26 @@
                   .lista-ol--cuadro__vineta
                     span 4
                   | Implementación y seguimiento de los compromisos asumidos.
-      .col-lg-2.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0
+      .col-lg-2.col-sm-6.col-8.order-lg-2.order-1.mb-lg-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/temas/tema1/img-65.svg', alt='Imagen decorativa')
+          img(src='@/assets/curso/temas/tema1/img-65.png', alt='Imagen decorativa')
 
     p.mb-4 Empleando los instrumentos visuales que se desarrollan en actividades grupales mediante el diálogo de las situaciones que se presentan; con los resultados obtenidos se hace una evaluación de lo que ésta sucediendo, para una reflexión de lo que se presenta, los recursos con los que se cuenta y los que se deben gestionar para cada situación de interés en salud pública, que es adoptado en diferentes contextos culturales y sociales. Es necesario contar con un rol de facilitador para que acompañe, motive y garantice la horizontalidad de las relaciones y no se presente la forma tradicional de compartir los contenidos a desarrollar.
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4(style="background-color:#FFF3D3")
+    .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-66.png')})`}" data-aos="fade-right"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-66.png')})`}" data-aos="fade-left"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-left") 
+      .bloque-texto-g__texto.p-4(data-aos="fade-right")
         .titulo2.mb-4(data-aos="fade-left")
           h5.mb-0 ¿Cómo funciona la metodología del SARAR?
         br
         p.mb-0 Para su realización esta metodología emplea herramientas didácticas y lúdicas (sociodramas, maquetas, títeres, historias, dinámicas, juegos, entre otras), concediendo a los participantes analizar su propia realidad e identificar las barreras o problemáticas existentes para su posterior diseño de estrategias de mejora en temas relacionados con factores que afectan la salud de las personas. Permitiendo, una reflexión crítica de lo que sucede en la comunidad, motivando la decisión colectiva para generar cambios en la comunidad. 
-
-    p Se recomienda que la sesión que se desarrolle sea por grupos homogéneos por edad y género, para fomentar la confianza y la participación, motivando un aprendizaje dinámico, adaptativo y contextualizado. Para el cierre de la sesión se propone exista una evaluación y realimentación a los participantes como para facilitadores, asegurando la apropiación del proceso.
-    p.mb-4 A continuación, se da un ejemplo sobre esta metodología, el cual trata sobre el manejo de los residuos sólidos en la comunidad San Miguel:
+    
+    .row.justify-content-center.mb-4
+      .col-lg-10.col-12
+        p Se recomienda que la sesión que se desarrolle sea por grupos homogéneos por edad y género, para fomentar la confianza y la participación, motivando un aprendizaje dinámico, adaptativo y contextualizado. Para el cierre de la sesión se propone exista una evaluación y realimentación a los participantes como para facilitadores, asegurando la apropiación del proceso.
+        p A continuación, se da un ejemplo sobre esta metodología, el cual trata sobre el manejo de los residuos sólidos en la comunidad San Miguel:
 
     .row.no-gutters.align-items-center.mb-4.style___box_1.m-0(data-aos="zoom-in")
       .col-xl-auto.px-0
@@ -904,22 +917,13 @@
       .col-lg-5.order-lg-1.order-2(data-aos="fade-right")
         .cajon-b.color-primario.p-3(data-aos="fade-right")
           p Algunos de los residentes de la comunidad San Miguel han iniciado el proceso de reciclaje de las basuras en desechos orgánicos y no orgánicos; sin embargo, se carece de educación ambiental y la baja cobertura del proceso de recolección no alcanza a cubrir la demanda que existe para el manejo de los residuos sólidos de la comunidad. A pesar, de que las autoridades locales han venido sensibilizando, planteando nuevas rutas de recolección no ha sido suficiente para que exista un cambio de la actitud y comportamiento de la comunidad no siendo una respuesta eficaz para el territorio.
-      .col-lg-5.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-5.col-6.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema1/img-69.png' alt="Imagen decorativa")
 
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
         .cajon.cajon.color-primario.p-4
           p.mb-0 Con el paso del tiempo la comunidad reconoce que el impacto del manejo inadecuado de los residuos sólidos impacta de forma negativa a los residentes de este lugar; por ello, inicia debates públicos en busca de alternativas de solución en los que se involucren organizaciones locales para diseñar un sistema comunitario, para el manejo de residuos sólidos de forma integral. Para esto, se plantean proyectos de educación ambiental y autogestión con el objeto de mejorar la calidad de vida y reducir los factores que desencadenan efectos adversos en la salud colectiva.
-
-
-
-
-
-
-
-
-
 
 
 </template>

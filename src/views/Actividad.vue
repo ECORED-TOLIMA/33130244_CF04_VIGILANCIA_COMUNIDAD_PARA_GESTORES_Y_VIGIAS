@@ -192,7 +192,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál es una característica fundamental de la movilización social según Pierre Bourdieu?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -225,7 +225,7 @@ export default {
         {
           id: 7,
           texto: '¿Qué implica la autogestión comunitaria en salud pública?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -262,7 +262,7 @@ export default {
           id: 8,
           texto:
             '¿Qué herramienta permite analizar causas y consecuencias de los problemas comunitarios en salud?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -295,7 +295,7 @@ export default {
           id: 9,
           texto:
             '¿Cuál de los siguientes no es un eje estratégico de la Política de Participación Social en Salud (PPSS)?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -327,7 +327,7 @@ export default {
         {
           id: 10,
           texto: '¿Qué efecto produce la organización comunitaria efectiva?',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -436,7 +436,7 @@ export default {
           id: 16,
           texto:
             'La movilización social solamente ocurre cuando existen presiones externas y no facilita cambios internos.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: false },
@@ -451,7 +451,7 @@ export default {
           id: 17,
           texto:
             'Las herramientas de análisis comunitario no son útiles para identificar causas, ni para plantear soluciones en salud pública.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: false },
@@ -466,7 +466,7 @@ export default {
           id: 18,
           texto:
             'La organización comunitaria limita la participación activa e impide la formación de redes y no promueve el liderazgo local.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: false },
@@ -481,7 +481,7 @@ export default {
           id: 19,
           texto:
             'Las coaliciones comunitarias están formadas por grupos homogéneos y no integran actores diferentes del territorio.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: false },
@@ -496,7 +496,7 @@ export default {
           id: 20,
           texto:
             'La metodología SARAR busca fortalecer la autoestima, la responsabilidad y la planificación de acciones colectivas en comunidades rurales.',
-          imagen: require('@/assets/actividad/imagen5.png'),
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdero', esCorrecta: true },
