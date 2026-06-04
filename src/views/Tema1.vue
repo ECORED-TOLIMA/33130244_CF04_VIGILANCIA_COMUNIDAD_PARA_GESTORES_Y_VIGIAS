@@ -193,7 +193,7 @@
           .row
             .col-lg-5.order-2.order-lg-1
               h4(style="color:#000 !important") Ruggeri
-              p.mb-0(style="color:#000 !important") Propone la autogestión como gestión no jerárquica de la producción y la organización del trabajo, donde las normas y procesos son desarrollados e implementados colectivamente por los propios trabajadores; implica apropiación y transformación dinámica de la organización, modificando reglas y excedentes según necesidades y consensos interno (Bauni, 2022).
+              p.mb-0(style="color:#000 !important") Propone la autogestión como gestión no jerárquica de la producción y la organización del trabajo, donde las normas y procesos son desarrollados e implementados colectivamente por los propios trabajadores; implica apropiación y transformación dinámica de la organización, modificando reglas y excedentes según necesidades y consensos internos (Bauni, 2022).
             .col-lg-7.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img-24.png', alt='Imagen decorativa')
@@ -292,7 +292,7 @@
             figure.d-none.d-xl-block
               img(src='@/assets/curso/temas/tema1/img-34.svg', alt='').m-auto
           .col-xl
-            p.mb-0 Constantemente pueden surgir formas nuevas y diferentes. Obedece a las lógicas comunitarias nacionales y subnacionales (departamental, distrital, comunal, barrial, veredas, etc.) Por lo cual, la autogestión surge como una noción importante para la dinamización de la acción colectiva. 
+            p.mb-0 Constantemente pueden surgir formas nuevas y diferentes. Obedece a las lógicas comunitarias nacionales y subnacionales (departamental, distrital, comunal, barrial, veredal, etc.). Por lo cual, la autogestión surge como una noción importante para la dinamización de la acción colectiva. 
 
         p Cómo previamente se mencionó, la autogestión en salud pública es un concepto que se refiere a la capacidad de una persona, familia o comunidad de asumir un rol activo y responsable en el cuidado de su propia salud. Va más allá del autocuidado individual y se enfoca en el empoderamiento colectivo para la toma de decisiones y la gestión de recursos que impactan el bienestar común.
         p Este concepto abarca: 
@@ -433,7 +433,7 @@
           .row
             .col-lg-6.order-2.order-lg-1
               h4(style="color:#000 !important") Ley Estatutaria 1757 de 2015
-              p.mb-0(style="color:#000 !important") A pesar de no ser una ley específica de salud, su impacto es directo. Regula y promueve mecanismos de participación ciudadana en la gestión pública, como las audiencias públicas, las consultas y la iniciativa populares normativa. Estos mecanismos son plenamente aplicables al sector de la salud, complementando las disposiciones de la Ley 1751 y fortaleciendo el derecho de la ciudadanía a influir en las decisiones de política pública (Congreso de Colombia, 2015).
+              p.mb-0(style="color:#000 !important") A pesar de no ser una ley específica de salud, su impacto es directo. Regula y promueve mecanismos de participación ciudadana en la gestión pública, como las audiencias públicas, las consultas y la iniciativa popular legislativa y normativa. Estos mecanismos son plenamente aplicables al sector de la salud, complementando las disposiciones de la Ley 1751 y fortaleciendo el derecho de la ciudadanía a influir en las decisiones de política pública (Congreso de Colombia, 2015).
             .col-lg-6.col-10.order-1.order-lg-2.mb-4
               figure
                 img(src='@/assets/curso/temas/tema1/img-46.png', alt='Imagen decorativa')
@@ -639,7 +639,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-right")
       .col-lg-10.col-12
         .bg-color-2.tarjeta.py-3.px-4.h-100
-          p.mb-0 Las organizaciones que favorecen la vigilancia en salud pública, específicamente la vigilancia basada en comunidad puede darse mediante veedurías de salud, club de usuarios del sistema general de seguridad social en salud, comités de vigilancias, redes de vigilancia en salud comunitaria, entre otras; quienes asumen funciones de gestión, incidencia, control social y garantía de derechos en el contexto. Además, cuando la organización se fortalece favorece la autonomía, la sostenibilidad y capacidad de respuesta de los desafíos propios de la comunidad e incluso externos (Richer, 2005). 
+          p.mb-0 Las organizaciones que favorecen la vigilancia en salud pública, específicamente la vigilancia basada en comunidad puede darse mediante veedurías de salud, club de usuarios del sistema general de seguridad social en salud, comité de vigilancia, redes de vigilancia en salud comunitaria, entre otras; quienes asumen funciones de gestión, incidencia, control social y garantía de derechos en el contexto. Además, cuando la organización se fortalece, favorece la autonomía, la sostenibilidad y capacidad de respuesta de los desafíos propios de la comunidad e incluso externos (Richer, 2005). 
 
     .row.justify-content-center.mb-4
       .col-1.d-none.d-lg-block
@@ -803,7 +803,7 @@
               .anexo__texto
                 p #[b Anexo_Ejemplo diagrama espina de pescado_Herramienta de análisis] 
     
-    p.mb-4 Basado en los procesos de análisis, previamente explicadas, el siguiente video presenta la movilización social como una estrategia fundamental en salud pública, que promueve la participación activa de la comunidad en la identificación, análisis y solución de los problemas sanitarios que la afectan directamente. Para comprender las causas y efectos de estos problemas, se emplean herramientas como son el árbol de soluciones y el diagrama de espina de pescado: 
+    p.mb-4 Basado en los procesos de análisis, previamente explicados, el siguiente video presenta la movilización social como una estrategia fundamental en salud pública, que promueve la participación activa de la comunidad en la identificación, análisis y solución de los problemas sanitarios que la afectan directamente. Para comprender las causas y efectos de estos problemas, se emplean herramientas como son el árbol de soluciones y el diagrama de espina de pescado: 
 
     .row.justify-content-center.align-items-center.mb-4        
       .col-lg-12
@@ -893,7 +893,7 @@
       )
       .bloque-texto-g__texto.p-4(data-aos="fade-right")
         .titulo2.mb-4(data-aos="fade-left")
-          h5.mb-0 ¿Cómo funciona la metodología del SARAR?
+          h5.mb-0 ¿Cómo funciona la metodología SARAR?
         br
         p.mb-0 Para su realización esta metodología emplea herramientas didácticas y lúdicas (sociodramas, maquetas, títeres, historias, dinámicas, juegos, entre otras), concediendo a los participantes analizar su propia realidad e identificar las barreras o problemáticas existentes para su posterior diseño de estrategias de mejora en temas relacionados con factores que afectan la salud de las personas. Permitiendo, una reflexión crítica de lo que sucede en la comunidad, motivando la decisión colectiva para generar cambios en la comunidad. 
     
